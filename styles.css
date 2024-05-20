@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    transition:0.3s;
+}
+
+header {
+    background-color: #2f4f4f; /* Sage color */
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.topbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.topbar li {
+    margin: 0 15px;
+}
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topbar a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 80px 20px 20px; /* Adjust for fixed header */
+}
+
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.picture-frame {
+    width: 500px;
+    height: 500px;
+    border: 5px solid #4682b4; /* Blue color */
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px; /* Center the frame and add bottom margin */
+}
+
+.profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.description {
+    max-width: 600px;
+    margin: 0 auto; /* Center the description */
+}
+
+h1 {
+    color: #4682b4; /* Blue color */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2f4f4f; /* Sage color */
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666; /* Grey color */
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:skyblue;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+a:hover {
+    text-decoration-line:underline;
+}
